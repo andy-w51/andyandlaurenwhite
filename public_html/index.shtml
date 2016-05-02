@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <title>Andy &amp; Lauren White</title>
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <header>
+                <a href="">
+                    <h1>
+                        Andy &amp; Lauren White
+                    </h1>
+                </a>
+                <img src="images/photo1.png" width="300" height="302" alt="Andy &amp; Lauren" />
+            </header>
+            
+            <main>
+                <section>
+                    <h2>
+                        Coming Soon!
+                    </h2>
+                </section>
+            </main>
+
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

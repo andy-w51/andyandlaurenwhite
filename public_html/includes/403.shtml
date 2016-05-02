@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <title>Andy &amp; Lauren White - Forbidden</title>
+    </head>
+    <body>
+        <div id="wrapper">
+
+        <!--#include virtual="/includes/errorHeader.shtml" -->            
+            
+            <main>
+                <section>
+                    <h2>
+                        <!--#echo var="REDIRECT_STATUS" --> - Forbidden
+                    </h2>
+
+                    <p>
+                        Lauren has detected a material weakness whilst
+                        auditing this request. 
+                        <a href="#" onclick="window.history.back();">
+                            Go back
+                        </a>.
+                    </p>
+                </section>
+            </main>
+
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

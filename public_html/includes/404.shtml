@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <title>Andy &amp; Lauren White - Bad Request</title>
+    </head>
+    <body>
+        <div id="wrapper">
+
+        <!--#include virtual="/includes/errorHeader.shtml" -->            
+            
+            <main>
+                <section>
+                    <h2>
+                        <!--#echo var="REDIRECT_STATUS" --> - Bad Request
+                    </h2>
+
+                    <p>
+                        Uh-Oh Spaghetti-Os!!! We couldn't find what you were
+                        looking for, 
+                        <a href="#" onclick="window.history.back();">kiss it better</a>.
+                    </p>
+                </section>
+            </main>
+
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

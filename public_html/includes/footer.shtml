@@ -1,0 +1,10 @@
+<footer>
+    &copy;
+    <address>
+        <a href="mailto:andy@andyandlaurenwhite.com">Andy</a>
+        and
+        <a href="mailto:lauren@andyandlaurenwhite.com">Lauren</a>
+        <span class="langford">Langford</span>
+        White
+    </address>
+</footer>

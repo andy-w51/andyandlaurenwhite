@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <title>Andy &amp; Lauren's BaliMoon Fund</title>
+        <link href="balimoon/css/moon.css" rel="stylesheet" type="text/css"  />
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <header>
+                <h1>
+                    <a href="">
+                        Andy &amp; Lauren's
+                    </a>
+                    <br />
+                    <a href="balimoon">
+                        "BaliMoon" &pound;und
+                    </a>
+                </h1>
+                <img src="images/photo1.png" width="300" height="302" alt="Andy &amp; Lauren" />
+                <p>
+                    Shortly after the big day, we will be flying out to Singapore
+                    and Bali for a two week trip of a lifetime.
+                    <br /><br />
+                    Lauren is particularly excited about escaping the English
+                    "drizzle" and the chance of some long overdue sunshine.
+                    Andy is of course raring to try all the local cuisine.
+                    <br /><br />
+                    We will then be flying back home to the UK, relaxed and ready to
+                    start our next big adventure of moving to California.
+                    We look forward to sharing all of our stories with you amazing,
+                    kind, lovely people that made all of this possible.
+                    <br /><br />
+                    Love,
+                    <br />
+                    Andy &amp; Lauren
+                    <br /><br />
+                    <a href="https://twitter.com/hashtag/laurenturnswhite" target="_blank">
+                        #laurenturnswhite
+                    </a>
+                </p>
+            </header>
+            
+            <main>
+                <section class="moon">
+                    <h2>The Fund</h2>
+                    <p>
+                        We've listed a few of the fun things that we'll be
+                        getting up to on our trip. If you are feeling generous,
+                        you can make contributions to us directly via
+                        <a href="https://www.paypal.me">PayPal</a>, for as much
+                        or as little as you choose.
+                    </p>
+                    <p>
+                        Just pick the currency that's easiest for
+                        you, and note on the payment which activity you'd like us
+                        to put it towards, and we promise we'll try not to just
+                        spend it all before we get there!
+                    </p>
+                </section>
+
+                <section class="moon">
+                    <h3>Ubud, Bali</h3>
+
+                    <article>
+                        <div class="moonImg">
+                            <a href="https://pixabay.com/en/bali-ubud-monkey-forest-345410/" target="_blank">
+                                <img src="balimoon/images/monkeyForest.jpg" width="150" height="100" alt="Monkey Forest" />
+                            </a>
+                        </div>
+                        <div class="moonBody">
+                            <h3>
+                                Monkey Forest    
+                            </h3>
+                            <p>
+                                Day tour of Batubulan Village, Tirta Empul Temple, and
+                                Monkey Forest (&pound;77 / &#36;110).
+                            </p>
+                        </div>
+                        <div class="moonLink">
+                            <a class="contribute" href="https://www.paypal.me/andyw51/77gbp" target="_blank">Contribute in GBP</a>
+                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/110usd" target="_blank">Contribute in USD</a>
+                        </div>
+                    </article>
+                    
+                    <article>
+                        <div class="moonImg">
+                            <a href="https://pixabay.com/en/rice-fields-bali-travel-241220/" target="_blank">
+                                <img src="balimoon/images/riceFields.jpg" width="150" height="100" alt="Rice fields" />
+                            </a>
+                        </div>
+                        <div class="moonBody">
+                            <h3>
+                                Rice Field Trekking Tour
+                            </h3>
+                            <p>
+                                A leisurely trek in the unique and beautiful
+                                rice fields of Ubud (&pound;77 / &#36;110).
+                            </p>
+                        </div>
+                        <div class="moonLink">
+                            <a class="contribute" href="https://www.paypal.me/andyw51/77gbp" target="_blank">Contribute in GBP</a>
+                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/110usd" target="_blank">Contribute in USD</a>
+                        </div>
+                    </article>
+                    
+                    <article>
+                        <div class="moonImg">
+                            <a href="https://pixabay.com/en/sate-bali-food-241234/" target="_blank">
+                                <img src="balimoon/images/food.jpg" width="150" height="100" alt="Cooking School" />
+                            </a>
+                        </div>
+                        <div class="moonBody">
+                            <h3>
+                                Cooking School
+                            </h3>
+                            <p>
+                                Discover the secrets of Balinese food
+                                (&pound;42 / &#36;61).
+                            </p>
+                        </div>
+                        <div class="moonLink">
+                            <a class="contribute" href="https://www.paypal.me/andyw51/42gbp" target="_blank">Contribute in GBP</a>
+                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/61usd" target="_blank">Contribute in USD</a>
+                        </div>
+                    </article>
+                    
+                    <article>
+                        <div class="moonImg">
+                            <a href="https://pixabay.com/en/river-rafting-960158/" target="_blank">
+                                <img src="balimoon/images/riverRafting.jpg" width="150" height="100" alt="White Water Rafting" />
+                            </a>
+                        </div>
+                        <div class="moonBody">
+                            <h3>
+                                White Water Rafting
+                            </h3>
+                            <p>
+                                White water rafting at Telaga Waja river
+                                (&pound;63 / &#36;90).
+                            </p>
+                        </div>
+                        <div class="moonLink">
+                            <a class="contribute" href="https://www.paypal.me/andyw51/63gbp" target="_blank">Contribute in GBP</a>
+                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/90usd" target="_blank">Contribute in USD</a>
+                        </div>
+                    </article>
+                </section>
+                
+                <section class="moon">
+                    <h3>Seminyak, Bali</h3>
+                    
+                    <article>
+                        <div class="moonImg">
+                            <a href="https://pixabay.com/en/bali-tulamben-indonesia-octopus-1347785/" target="_blank">
+                                <img src="balimoon/images/reefCruise.jpg" width="136" height="100" alt="Reef Cruise" />
+                            </a>
+                        </div>
+                        <div class="moonBody">
+                            <h3>
+                                Lembongan Island and Bali Reef Cruise
+                            </h3>
+                            <p>
+                                Day trip to Lembongan Island, including a cruise
+                                of the Bali reef (&pound;180 / &#36;258). 
+                            </p>
+                        </div>
+                        <div class="moonLink">
+                            <a class="contribute" href="https://www.paypal.me/andyw51/180gbp" target="_blank">Contribute in GBP</a>
+                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/258usd" target="_blank">Contribute in USD</a>
+                        </div>
+                    </article>
+                </section>
+                
+            </main>
+
+           <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

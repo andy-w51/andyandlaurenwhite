@@ -1,0 +1,6 @@
+<meta charset="UTF-8" />
+<base href="http://<!--#echo var="HTTP_HOST" -->" />
+<link rel="icon" href="images/favicon.png">
+<link href="css/main.css" rel="stylesheet" type="text/css"  />
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet" type="text/css" />
