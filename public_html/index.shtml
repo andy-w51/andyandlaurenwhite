@@ -6,7 +6,16 @@
 
         <script>
             function refresh() {
-                var theBigDay = new Date(2016, 5, 25, 14, 0, 0, 0);
+
+                var theBigDay = new Date();
+                theBigDay.setUTCFullYear(2016);
+                theBigDay.setUTCMonth(5);
+                theBigDay.setUTCDate(25);
+                theBigDay.setUTCHours(13);
+                theBigDay.setUTCMinutes(0);
+                theBigDay.setUTCSeconds(0);
+                theBigDay.setUTCMilliseconds(0);
+                
                 var today = Date.now();
 
                 var days = 0;
