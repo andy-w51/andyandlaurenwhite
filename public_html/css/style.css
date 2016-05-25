@@ -61,3 +61,23 @@ address {
 .langford {
     text-decoration:line-through;
 }
+.counter {
+    display:inline-block;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-top:5px;
+    padding-bottom:20px;
+    border-top-style:solid;
+    border-top-width:1px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    font-size:2em;
+    width:100%;
+    text-align:center;
+}
+.counterItem {
+    display:inline-block;
+    width:1em;
+    font-size:4em;
+    text-align:right;
+}
