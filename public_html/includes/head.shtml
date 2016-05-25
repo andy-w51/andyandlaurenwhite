@@ -1,6 +1,9 @@
 <meta charset="UTF-8" />
+<meta name="description" content=Andy &amp; Lauren White's Personal Website" />
+<meta name="keywords" content="Andy, Lauren, White" />
+<meta name="author" content="Andy White" />
 <base href="http://<!--#echo var="HTTP_HOST" -->" />
 <link rel="icon" href="images/favicon.png">
-<link href="css/main.css" rel="stylesheet" type="text/css"  />
+<link href="css/style.css" rel="stylesheet" type="text/css"  />
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet" type="text/css" />

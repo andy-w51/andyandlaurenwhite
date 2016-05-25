@@ -3,8 +3,48 @@
     <head>
         <!--#include virtual="/includes/head.shtml" -->
         <title>Andy &amp; Lauren White</title>
+
+        <script>
+            function refresh() {
+                var theBigDay = new Date(2016, 5, 25, 14, 0, 0, 0);
+                var today = Date.now();
+
+                var days = 0;
+                var hours = 0;
+                var mins = 0;
+                var secs = 0;
+
+                if (theBigDay > today) {
+                    var millisPerSec = 1000;
+                    var millisPerMin = millisPerSec * 60;
+                    var millisPerHour = millisPerMin * 60;
+                    var millisPerDay = millisPerHour * 24;
+
+                    var diff = theBigDay - today;
+
+                    days = Math.floor(diff / millisPerDay);
+                    diff -= days * millisPerDay;
+
+                    hours = Math.floor(diff / millisPerHour);
+                    diff -= hours * millisPerHour;
+
+                    mins = Math.floor(diff / millisPerMin);
+                    diff -= mins * millisPerMin;
+
+                    secs = Math.floor(diff / millisPerSec);
+                }
+
+                document.getElementById("days").innerHTML = days;
+                document.getElementById("hours").innerHTML = hours;
+                document.getElementById("mins").innerHTML = mins;
+                document.getElementById("secs").innerHTML = secs;
+
+                setTimeout(refresh, 1000);
+            }
+
+        </script>
     </head>
-    <body>
+    <body onLoad="refresh();">
         <div id="wrapper">
 
             <header>
@@ -13,15 +53,31 @@
                         Andy &amp; Lauren White
                     </h1>
                 </a>
-                <img src="images/photo1.png" width="300" height="302" alt="Andy &amp; Lauren" />
             </header>
             
             <main>
-                <section>
-                    <h2>
-                        Coming Soon!
-                    </h2>
-                </section>
+                <span class="counter">
+                    <span class="counterItem" id="days">
+                        0
+                    </span>
+                    days
+
+                    <span class="counterItem" id="hours">
+                        0
+                    </span>
+                    h
+
+                    <span class="counterItem" id="mins">
+                        0
+                    </span>
+                    m
+
+                    <span class="counterItem" id="secs">
+                        0
+                    </span>
+                    s
+                </span>
+
             </main>
 
             <!--#include virtual="/includes/footer.shtml" -->
