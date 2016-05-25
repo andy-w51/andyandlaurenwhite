@@ -1,5 +1,5 @@
 <meta charset="UTF-8" />
-<meta name="description" content=Andy &amp; Lauren White's Personal Website" />
+<meta name="description" content="Andy &amp; Lauren White's Personal Website" />
 <meta name="keywords" content="Andy, Lauren, White" />
 <meta name="author" content="Andy White" />
 <base href="http://<!--#echo var="HTTP_HOST" -->" />
