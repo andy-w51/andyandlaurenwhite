@@ -8,12 +8,9 @@ body {
     background-attachment:fixed;
     background-repeat:no-repeat;
     background-color:#ffffff;
-
     text-align:center;
-
     font-family:"Alegreya Sans","sans-serif";
     color:#333333;
-    
     margin-bottom:100px;
 }
 #wrapper {
@@ -24,7 +21,6 @@ body {
 header {
     font-family:"Indie Flower", cursive;
     font-size:20px;
-    margin-bottom:100px;
 }
 header a {
     color:#333333;
@@ -63,7 +59,7 @@ address {
 }
 .counter {
     display:inline-block;
-    margin-top:50px;
+    margin-top:5em;
     margin-bottom:50px;
     padding-top:5px;
     padding-bottom:20px;

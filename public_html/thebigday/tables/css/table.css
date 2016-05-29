@@ -1,0 +1,37 @@
+nav {
+    width:7in;
+    margin:auto;
+    padding-bottom:0.5em;
+    box-sizing:border-box;
+}
+#table {
+    width:7in;
+    height:5in;
+    background-color:#ffffff;
+    font-family:"Indie Flower", cursive;
+    text-align:left;
+    border:1px solid #333333;
+    box-sizing:border-box;
+    padding:0.5em;
+    margin:auto;
+}
+#table h2 {
+    margin-top:0px;
+}
+#table a:hover {
+    text-decoration:none;
+}
+#table img {
+    border-radius:5%;
+    border:1px solid #000000;
+}
+#table .topLeft {
+    float:left;
+    margin-right:1em;
+    margin-bottom:1em;
+}
+#table .bottomRight {
+    float:right;
+    margin-top:1em;
+    margin-left:1em;
+}

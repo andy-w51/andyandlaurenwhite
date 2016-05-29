@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <link href="thebigday/tables/css/table.css" rel="stylesheet" type="text/css"  />
+        <title>Table 4 - Portland, OR</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="">
+                        Andy &amp; Lauren White
+                    </a>
+                </h1>
+            </header>
+
+            <nav>
+                <a href="thebigday/tables">
+                    Seating Plan
+                </a>
+            </nav>
+
+            <main>
+                <section id="table">
+                    <img class="topLeft" src="thebigday/tables/images/portlandus.jpg" width="216" height="288" alt="Portland, OR" />
+                    <h2>Portland, OR - Beaver</h2>
+                    <p>
+                        Andy and Lauren journeyed to Portland, Oregon during
+                        their US trip in June 2015, to attend Lauren's cousin's
+                        wedding. 
+                    </p>
+                    <img class="bottomRight" src="thebigday/tables/images/portlandandy.jpg" width="216" height="288" alt="Portland, OR" />
+                    <p>
+                        Andy did not realise quite how long it would take to
+                        drive through this state, as he claims everything in the
+                        US is actually much further away than it seems on a map.
+                        However, in a city known for craft beer and good food,
+                        Andy was in heaven.
+                    </p>
+                    <p>
+                        The souvenir from this trip was a beaver, which is the
+                        mascot of the Oregon State University football team,
+                        which Lauren's cousin used to play for.
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/hashtag/laurenturnswhite" target="_blank">
+                            #laurenturnswhite
+                        </a>
+                    </p>
+                </section>
+            </main>
+        
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

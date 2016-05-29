@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <link href="thebigday/tables/css/table.css" rel="stylesheet" type="text/css"  />
+        <title>Top Table - Bath, UK</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="">
+                        Andy &amp; Lauren White
+                    </a>
+                </h1>
+            </header>
+
+            <nav>
+                <a href="thebigday/tables">
+                    Seating Plan
+                </a>
+            </nav>
+
+            <main>
+                <section id="table">
+                    <img class="topLeft" src="thebigday/tables/images/bathhandkiss.jpg" width="216" height="288" alt="Bath, UK" />
+                    <h2>Bath, UK - Penguin</h2>
+                    <p>
+                        Andy and Lauren travelled to Bath, UK for Valentine's
+                        day 2015.
+                    </p>
+                    <p>
+                        Little did Lauren expect that Andy had an engagement
+                        ring hidden on him. She called him out for acting weird,
+                        only for Andy to get down on one knee. In shock, Lauren
+                        had to ask Andy to repeat the question so she could take
+                        it all in a second time round. They gave everyone the
+                        <img class="bottomRight" src="thebigday/tables/images/bathmulti.jpg" width="216" height="216" alt="Bath, UK" />
+                        good news before heading out for dinner, and relaxing 
+                        the following day at the spa.
+                    </p>
+                    <p>
+                        Besides the expensive, shiny, diamond ring, a beautiful
+                        glass penguin from a glass blowing workshop will always
+                        remind them of this special weekend together.
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/hashtag/laurenturnswhite" target="_blank">
+                            #laurenturnswhite
+                        </a>
+                    </p>
+                </section>
+            </main>
+        
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

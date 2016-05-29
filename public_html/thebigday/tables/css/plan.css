@@ -1,0 +1,25 @@
+a {
+    color:inherit;
+}
+main {
+    height:55em;
+}
+.plan {
+    float:left;
+    width:13em;
+    height:15em;
+    margin:0.5em;
+    padding:1em;
+    border-radius:5%;
+    background:rgba(112, 146, 190, 0.1);
+    transition:background 0.3s ease-out;
+}
+.plan:hover {
+    background:rgba(112, 146, 190, 0.3);
+}
+.plan h3 {
+    margin:0px;
+}
+.plan ol {
+    padding-left:1em;
+}
