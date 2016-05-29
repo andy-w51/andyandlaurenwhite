@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <link href="thebigday/tables/css/table.css" rel="stylesheet" type="text/css"  />
+        <title>Table 5 - Seattle, WA</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="">
+                        Andy &amp; Lauren White
+                    </a>
+                </h1>
+            </header>
+
+            <nav>
+                <a href="thebigday/tables">
+                    Seating Plan
+                </a>
+            </nav>
+
+            <main>
+                <section id="table">
+                    <img class="topLeft" src="thebigday/tables/images/seattleview.jpg" width="216" height="288" alt="Seattle, WA"  />
+                    <h2>Seattle, WA - Otter</h2>
+                    <p>
+                        Lauren and Andy visited Seattle in June 2015, whilst on
+                        a trip to the Pacific Northwest (aka the PNW), to attend
+                        Lauren's cousin's wedding in Portland, Oregon. 
+                    </p>
+                    <img class="bottomRight" src="thebigday/tables/images/seattleus.jpg" width="216" height="288" alt="Seattle, WA" />
+                    <p>
+                        Along with Lauren's bridesmaid Deleena, they wandered
+                        around the city and relaxed by Puget Sound (on the
+                        lookout for otters) and enjoyed the beautiful scenery.
+                    </p>
+                    <p>
+                        The souvenir from this trip was an otter, Deleena's
+                        favourite animal.
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/hashtag/laurenturnswhite" target="_blank">
+                            #laurenturnswhite
+                        </a>
+                    </p>
+                </section>
+            </main>
+        
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

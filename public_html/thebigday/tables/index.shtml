@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <link href="thebigday/tables/css/plan.css" rel="stylesheet" type="text/css"  />
+        <title>Seating Plan</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="">
+                        Andy &amp; Lauren White
+                    </a>
+                </h1>
+            </header>
+
+            <main>
+                <section>
+                    <h2>
+                        Seating Plan
+                    </h2>
+
+                    <a href="thebigday/tables/top.shtml">
+                        <article class="plan">
+                            <h3>
+                                Top Table - Bath, UK
+                            </h3>
+                            <ol>
+                                <li>
+                                    Lauren (Bride)
+                                </li>
+                                <li>
+                                    Andy (Groom)
+                                </li>
+                            </ul>
+                        </article>
+                    </a>
+
+                    <a href="thebigday/tables/table1.shtml">
+                        <article class="plan">
+                            <h3>
+                                Table 1 - Cornwall, UK
+                            </h3>
+                            <ol>
+                                <li>
+                                    Brenda (Mother of the bride)
+                                </li>
+                                <li>
+                                    Rob (Father of the bride)
+                                </li>
+                                <li>
+                                    Christine (Mother of the groom)
+                                </li>
+                                <li>
+                                    Ian (Father of the groom)
+                                </li>
+                                <li>
+                                    Margaret
+                                </li>
+                                <li>
+                                    Jim
+                                </li>
+                                <li>
+                                    John
+                                </li>
+                                <li>
+                                    Rose
+                                </li>
+                            </ul>
+                        </article>
+                    </a>
+
+                    <a href="thebigday/tables/table2.shtml">
+                        <article class="plan">
+                            <h3>
+                                Table 2 - Spain
+                            </h3>
+                            <ol>
+                                <li>
+                                    Alice (Bridesmaid)
+                                </li>
+                                <li>
+                                    Paul
+                                </li>
+                                <li>
+                                    Andrea (Chief bridesmaid)
+                                </li>
+                                <li>
+                                    Mo
+                                </li>
+                                <li>
+                                    Ahmed (Best man)
+                                </li>
+                                <li>
+                                    Sammy
+                                </li>
+                                <li>
+                                    Deleena (Bridesmaid)
+                                </li>
+                                <li>
+                                    Jimmy (Groomsman)
+                                </li>
+                                <li>
+                                    Tim (Groomsman)
+                                </li>
+                            </ul>
+                        </article>
+                    </a>
+
+                    <a href="thebigday/tables/table3.shtml">
+                        <article class="plan">
+                            <h3>
+                                Table 3 - Vienna, Austria
+                            </h3>
+                            <ol>
+                                <li>
+                                    Penn
+                                </li>
+                                <li>
+                                    Andy
+                                </li>
+                                <li>
+                                    Darcy
+                                </li>
+                                <li>
+                                    Phil
+                                </li>
+                                <li>
+                                    Paul
+                                </li>
+                                <li>
+                                    Kathy
+                                </li>
+                                <li>
+                                    Alex
+                                </li>
+                                <li>
+                                    Chloe
+                                </li>
+                                <li>
+                                    Tori
+                                </li>
+                            </ul>
+                        </article>
+                    </a>
+
+                    <a href="thebigday/tables/table4.shtml">
+                        <article class="plan">
+                            <h3>
+                                Table 4 - Portland, OR
+                            </h3>
+                            <ol>
+                                <li>
+                                    Lucy
+                                </li>
+                                <li>
+                                    Lou
+                                </li>
+                                <li>
+                                    Emma
+                                </li>
+                                <li>
+                                    Robbie
+                                </li>
+                                <li>
+                                    Ben
+                                </li>
+                                <li>
+                                    Ben
+                                </li>
+                                <li>
+                                    Alison
+                                </li>
+                                <li>
+                                    Rich
+                                </li>
+                                <li>
+                                    Seona
+                                </li>
+                            </ul>
+                        </article>
+                    </a>
+
+                    <a href="thebigday/tables/table5.shtml">
+                        <article class="plan">
+                            <h3>
+                                Table 5 - Seattle, WA
+                            </h3>
+                            <ol>
+                                <li>
+                                    Betty
+                                </li>
+                                <li>
+                                    Philip
+                                </li>
+                                <li>
+                                    Ian
+                                </li>
+                                <li>
+                                    Ann
+                                </li>
+                                <li>
+                                    Rob
+                                </li>
+                                <li>
+                                    Hannah
+                                </li>
+                                <li>
+                                    Ellie
+                                </li>
+                                <li>
+                                    Harry
+                                </li>
+                                <li>
+                                    Becca
+                                </li>
+                                <li>
+                                    Billy
+                                </li>
+                            </ul>
+                        </article>
+                    </a>
+
+                    <a href="thebigday/tables/table6.shtml">
+                        <article class="plan">
+                            <h3>
+                                Table 6 - Greece
+                            </h3>
+                            <ol>
+                                <li>
+                                    Nicole
+                                </li>
+                                <li>
+                                    Zoe
+                                </li>
+                                <li>
+                                    Celen
+                                </li>
+                                <li>
+                                    Adrian
+                                </li>
+                                <li>
+                                    Brita
+                                </li>
+                                <li>
+                                    Sam
+                                </li>
+                                <li>
+                                    Rachel
+                                </li>
+                                <li>
+                                    Toby
+                                </li>
+                                <li>
+                                    Erin
+                                </li>
+                                <li>
+                                    Kaitlyn
+                                </li>
+                                <li>
+                                    Merima
+                                </li>
+                            </ul>
+                        </article>
+                    </a>
+
+                    <a href="thebigday/tables/table7.shtml">
+                        <article class="plan">
+                            <h3>
+                                Table 7 - Tuscany, Italy
+                            </h3>
+                            <ol>
+                                <li>
+                                    Jenn
+                                </li>
+                                <li>
+                                    Andrew
+                                </li>
+                                <li>
+                                    Kendra
+                                </li>
+                                <li>
+                                    Kayla
+                                </li>
+                                <li>
+                                    Ashley
+                                </li>
+                                <li>
+                                    John
+                                </li>
+                                <li>
+                                    Luke
+                                </li>
+                                <li>
+                                    Hannah
+                                </li>
+                                <li>
+                                    Colin
+                                </li>
+                                <li>
+                                    Jelena
+                                </li>
+                            </ul>
+                        </article>
+                    </a>
+
+                    <a href="thebigday/tables/table8.shtml">
+                        <article class="plan">
+                            <h3>
+                                Table 8 - Tangier, Morocco
+                            </h3>
+                            <ol>
+                                <li>
+                                    Aaron
+                                </li>
+                                <li>
+                                    Alex
+                                </li>
+                                <li>
+                                    Tamara
+                                </li>
+                                <li>
+                                    Amanda
+                                </li>
+                                <li>
+                                    Don
+                                </li>
+                                <li>
+                                    Alan
+                                </li>
+                                <li>
+                                    Kerry
+                                </li>
+                                <li>
+                                    Rachel
+                                </li>
+                                <li>
+                                    Kendra
+                                </li>
+                                <li>
+                                    Matt
+                                </li>
+                                <li>
+                                    Dan
+                                </li>
+                            </ul>
+                        </article>
+                    </a>
+
+                </section>
+            </main>
+        
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

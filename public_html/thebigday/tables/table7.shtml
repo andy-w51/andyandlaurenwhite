@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <link href="thebigday/tables/css/table.css" rel="stylesheet" type="text/css"  />
+        <title>Table 7 - Tuscany, Italy</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="">
+                        Andy &amp; Lauren White
+                    </a>
+                </h1>
+            </header>
+
+            <nav>
+                <a href="thebigday/tables">
+                    Seating Plan
+                </a>
+            </nav>
+
+            <main>
+                <section id="table">
+                    <img class="topLeft" src="thebigday/tables/images/tuscanyus.jpg" width="216" height="288" alt="Tuscany, Italy" />
+                    <h2>Tuscany, Italy - Boar</h2>
+                    <p>
+                        Lauren and Andy took a break from wedding planning and
+                        went to Italy for their 2016 Easter holiday.
+                    </p>
+                    <p>
+                        They enjoyed a lovely few days in Pisa and Florence that
+                        <img class="bottomRight" src="thebigday/tables/images/tuscanyview.jpg" width="216" height="288" alt="Tuscany, Italy" />
+                        combined their love of food (Andy) and wine (Lauren)...
+                        just ask Andy about his 1kg/35oz of steak!
+                    </p>
+                    <p>
+                        The souvenir from this trip, besides a few bottles of
+                        wine (which have already been consumed), was a wild boar,
+                        native to the region. However, then Andy ate one in a 
+                        ragu dish, and enjoyed it (what a weirdo).
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/hashtag/laurenturnswhite" target="_blank">
+                            #laurenturnswhite
+                        </a>
+                    </p>
+                </section>
+            </main>
+        
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

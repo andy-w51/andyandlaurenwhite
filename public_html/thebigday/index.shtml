@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <link href="thebigday/tables/css/plan.css" rel="stylesheet" type="text/css"  />
+        <title>The Big Day</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="">
+                        Andy &amp; Lauren White
+                    </a>
+                </h1>
+            </header>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="thebigday/tables">
+                            Seating Plan
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <main>
+            </main>
+        
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <link href="thebigday/tables/css/table.css" rel="stylesheet" type="text/css"  />
+        <title>Table 6 - Greece</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="">
+                        Andy &amp; Lauren White
+                    </a>
+                </h1>
+            </header>
+
+            <nav>
+                <a href="thebigday/tables">
+                    Seating Plan
+                </a>
+            </nav>
+
+            <main>
+                <section id="table">
+                    <img class="topLeft" src="thebigday/tables/images/greeceus.jpg" width="216" height="288" alt="Greece" />
+                    <h2>Greece - Cat</h2>
+                    <p>
+                        Lauren and Andy adventured in Greece for their 2015
+                        Easter holiday. 
+                    </p>
+                    <p>
+                        The weather wasn't all that warm, but the scenery was
+                        beautiful. The food was great, even when Andy managed to
+                        order two plates of meatballs instead of two Mythos
+                        (beers).
+                    </p>
+                    <img class="bottomRight" src="thebigday/tables/images/greeceview.jpg" width="288" height="216" alt="Greece" />
+                    <p>
+                        The trip was a good balance of history and city life in
+                        Athens followed by a relaxing trip to the tiny island 
+                        of Hydra...where there are no cars, but a LOT of cats.
+                        Brita and Rachel – this one's for you!
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/hashtag/laurenturnswhite" target="_blank">
+                            #laurenturnswhite
+                        </a>
+                    </p>
+                </section>
+            </main>
+        
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

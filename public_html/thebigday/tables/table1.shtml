@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <link href="thebigday/tables/css/table.css" rel="stylesheet" type="text/css"  />
+        <title>Table 1 - Cornwall, UK</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="">
+                        Andy &amp; Lauren White
+                    </a>
+                </h1>
+            </header>
+
+            <nav>
+                <a href="thebigday/tables">
+                    Seating Plan
+                </a>
+            </nav>
+
+            <main>
+                <section id="table">
+                    <img class="topLeft"
+                    src="thebigday/tables/images/cornwallview.jpg" width="216" height="288" alt="Cornwall, UK" />
+                    <h2>Cornwall, UK - Lobster</h2>
+                    <p>
+                        After months of Andy telling Lauren all about how much she
+                        would love Cornwall, they finally took a week off and road
+                        tripped to the seaside in September 2015.
+                    </p>
+                    <img class="bottomRight"
+                    src="thebigday/tables/images/cornwallus.jpg" width="216" height="288" alt="Cornwall, UK" />
+                    <p>
+                        Andy drove Lauren all over the place on the small Cornish
+                        roads, and showed her some of the most beautiful places from
+                        his childhood like Padstow, Constantine Bay, St. Michael's
+                        Mount, and St. Ives.
+                    </p>
+                    <p>
+                        "Paddy Lobstow", as he's lovingly called, is their souvenir
+                        from this great trip.
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/hashtag/laurenturnswhite" target="_blank">
+                            #laurenturnswhite
+                        </a>
+                    </p>
+                </section>
+            </main>
+        
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>

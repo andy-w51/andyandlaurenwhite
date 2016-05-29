@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#include virtual="/includes/head.shtml" -->
+        <link href="thebigday/tables/css/table.css" rel="stylesheet" type="text/css"  />
+        <title>Table 3 - Vienna, Austria</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="">
+                        Andy &amp; Lauren White
+                    </a>
+                </h1>
+            </header>
+
+            <nav>
+                <a href="thebigday/tables">
+                    Seating Plan
+                </a>
+            </nav>
+
+            <main>
+                <section id="table">
+                    <img class="topLeft" src="thebigday/tables/images/viennaview.jpg" width="216" height="288" alt="Vienna, Austria" />
+                    <h2>Vienna - Pig</h2>
+                    <p>
+                        Lauren and Andy went on a last minute trip to Vienna,
+                        Austria for New Years Eve in 2014, with good friends Sam
+                        and Brita.
+                    </p>
+                    <p>
+                        They enjoyed the snow, always an experience for a girl
+                        <img class="bottomRight" src="thebigday/tables/images/viennaus.jpg" width="216" height="288" alt="Vienna, Austria" />
+                        from a desert, and the Christmas markets. Although they
+                        didn't know it at the time, their last New Years Eve
+                        kiss as only boyfriend and girlfriend.
+                    </p>
+                    <p>
+                        The souvenir from this trip was a pig from the
+                        christmas markets. Apparently, a pig represents
+                        good luck.
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/hashtag/laurenturnswhite" target="_blank">
+                            #laurenturnswhite
+                        </a>
+                    </p>
+                </section>
+            </main>
+        
+            <!--#include virtual="/includes/footer.shtml" -->
+
+        </div>
+    </body>
+</html>
