@@ -1,0 +1,17 @@
+<img class="topLeft" src="thebigday/tables/images/small/viennaview.jpg" width="216" height="288" alt="Vienna, Austria" onclick="enlargePhoto('thebigday/tables/images/large/viennaview.jpg');" />
+<h2>Vienna - Pig</h2>
+<p>
+    Lauren and Andy went on a last minute trip to Vienna, Austria for New Years
+    Eve in 2014, with good friends Sam and Brita.
+</p>
+<p>
+    They enjoyed the snow, always an experience for a girl
+    <img class="bottomRight" src="thebigday/tables/images/small/viennaus.jpg" width="216" height="288" alt="Vienna, Austria" onclick="enlargePhoto('thebigday/tables/images/large/viennaus.jpg');" />
+    from a desert, and the Christmas markets. Although they didn't know it at
+    the time, their last New Years Eve kiss as only boyfriend and girlfriend.
+</p>
+<p>
+    The souvenir from this trip was a pig from the christmas markets.
+    Apparently, a pig represents good luck.
+</p>
+<!--#include virtual="/includes/hashtag.shtml" -->

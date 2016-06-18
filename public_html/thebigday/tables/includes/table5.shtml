@@ -1,0 +1,17 @@
+<img class="topLeft" src="thebigday/tables/images/small/seattleview.jpg" width="216" height="288" alt="Seattle, WA" onclick="enlargePhoto('thebigday/tables/images/large/seattleview.jpg');" />
+<h2>Seattle, WA - Otter</h2>
+<p>
+    Lauren and Andy visited Seattle in June 2015, whilst on a trip to the
+    Pacific Northwest (aka the PNW), to attend Lauren's cousin's wedding in
+    Portland, Oregon. 
+</p>
+<img class="bottomRight" src="thebigday/tables/images/small/seattleus.jpg" width="216" height="288" alt="Seattle, WA" onclick="enlargePhoto('thebigday/tables/images/large/seattleus.jpg');" />
+<p>
+    Along with Lauren's bridesmaid Deleena, they wandered around the city and
+    relaxed by Puget Sound (on the lookout for otters) and enjoyed the
+    beautiful scenery.
+</p>
+<p>
+    The souvenir from this trip was an otter, Deleena's favourite animal.
+</p>
+<!--#include virtual="/includes/hashtag.shtml" -->

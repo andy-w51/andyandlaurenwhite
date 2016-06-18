@@ -13,6 +13,7 @@ main {
     border-radius:5%;
     background:rgba(112, 146, 190, 0.1);
     transition:background 0.3s ease-out;
+    cursor:pointer;
 }
 .plan:hover {
     background:rgba(112, 146, 190, 0.3);
