@@ -1,0 +1,18 @@
+<img class="topLeft" src="thebigday/tables/images/small/spainus.jpg" width="216" height="288" alt="Spain" onclick="enlargePhoto('thebigday/tables/images/large/spainus.jpg');" />
+<h2>Spain - Bull</h2>
+<p>
+    Andy and Lauren went on one of their first "holidays", "vacations" together
+    to Marbella and Sevilla, in the south of Spain in May 2014, with a group of
+    Lauren's friends.
+</p>
+<img class="bottomRight" src="thebigday/tables/images/small/spainview.jpg" width="216" height="288" alt="Spain" onclick="enlargePhoto('thebigday/tables/images/large/spainview.jpg');" />
+<p>
+    Andy walked miles along the beach in search of beach toys, and Lauren was
+    pleasantly surprised when Andy came back with a volleyball...and then less
+    excited when Andy just played football with it.
+</p>
+<p>
+    The souvenir from this trip was a bull from the old roman city of Ronda, up
+    in the mountains.
+</p>
+<!--#include virtual="/includes/hashtag.shtml" -->

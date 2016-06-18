@@ -3,9 +3,13 @@
     <head>
         <!--#include virtual="/includes/head.shtml" -->
         <link href="thebigday/tables/css/plan.css" rel="stylesheet" type="text/css"  />
+        <link href="thebigday/tables/css/table.css" rel="stylesheet" type="text/css" />
+        <script src="thebigday/tables/scripts/tableviewer.js"></script>
+        <script src="thebigday/tables/scripts/photoviewer.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <title>Seating Plan</title>
     </head>
-    <body>
+    <body onload="registerTableViewerCallbacks();registerPhotoViewerCallbacks();">
         <div id="wrapper">
             <header>
                 <h1>
@@ -20,337 +24,349 @@
                     <h2>
                         Seating Plan
                     </h2>
+                    <p>
+                        Click each table for a story.
+                    </p>
 
-                    <a href="thebigday/tables/top.shtml">
-                        <article class="plan">
-                            <h3>
-                                Top Table - Bath, UK
-                            </h3>
-                            <ol>
-                                <li>
-                                    Lauren (Bride)
-                                </li>
-                                <li>
-                                    Andy (Groom)
-                                </li>
-                            </ul>
-                        </article>
-                    </a>
+                    <article class="plan" id="planTop">
+                        <h3>
+                            Top Table - Bath, UK
+                        </h3>
+                        <ol>
+                            <li>
+                                Lauren
+                                <span class="langford">Langford</span>
+                                White
+                            </li>
+                            <li>
+                                Andrew White
+                            </li>
+                        </ul>
+                    </article>
 
-                    <a href="thebigday/tables/table1.shtml">
-                        <article class="plan">
-                            <h3>
-                                Table 1 - Cornwall, UK
-                            </h3>
-                            <ol>
-                                <li>
-                                    Brenda (Mother of the bride)
-                                </li>
-                                <li>
-                                    Rob (Father of the bride)
-                                </li>
-                                <li>
-                                    Christine (Mother of the groom)
-                                </li>
-                                <li>
-                                    Ian (Father of the groom)
-                                </li>
-                                <li>
-                                    Margaret
-                                </li>
-                                <li>
-                                    Jim
-                                </li>
-                                <li>
-                                    John
-                                </li>
-                                <li>
-                                    Rose
-                                </li>
-                                <li>
-                                    Chris
-                                </li>
-                            </ul>
-                        </article>
-                    </a>
+                    <article class="plan" id="plan1">
+                        <h3>
+                            Table 1 - Cornwall, UK
+                        </h3>
+                        <ol>
+                            <li>
+                                Brenda Langford
+                            </li>
+                            <li>
+                                Robort Langford
+                            </li>
+                            <li>
+                                Christine White
+                            </li>
+                            <li>
+                                Ian White
+                            </li>
+                            <li>
+                                Margaret Adams
+                            </li>
+                            <li>
+                                Jim Langford
+                            </li>
+                            <li>
+                                John Langford
+                            </li>
+                            <li>
+                                Rose Langford
+                            </li>
+                            <li>
+                                Christopher Langford
+                            </li>
+                        </ul>
+                    </article>
 
-                    <a href="thebigday/tables/table2.shtml">
-                        <article class="plan">
-                            <h3>
-                                Table 2 - Spain
-                            </h3>
-                            <ol>
-                                <li>
-                                    Alice (Bridesmaid)
-                                </li>
-                                <li>
-                                    Paul
-                                </li>
-                                <li>
-                                    Andrea (Chief bridesmaid)
-                                </li>
-                                <li>
-                                    Mo
-                                </li>
-                                <li>
-                                    Ahmed (Best man)
-                                </li>
-                                <li>
-                                    Sammy
-                                </li>
-                                <li>
-                                    Deleena (Bridesmaid)
-                                </li>
-                                <li>
-                                    Jimmy (Groomsman)
-                                </li>
-                                <li>
-                                    Tim (Groomsman)
-                                </li>
-                            </ul>
-                        </article>
-                    </a>
+                    <article class="plan" id="plan2">
+                        <h3>
+                            Table 2 - Spain
+                        </h3>
+                        <ol>
+                            <li>
+                                Alice White
+                            </li>
+                            <li>
+                                Paul McCormack
+                            </li>
+                            <li>
+                                Andrea Langford
+                            </li>
+                            <li>
+                                Muhammad "Mo" Bin-Mahfouz
+                            </li>
+                            <li>
+                                Ahmed Al-Hindawi
+                            </li>
+                            <li>
+                                Deleena Patton
+                            </li>
+                            <li>
+                                James "Jimmy" Rank
+                            </li>
+                            <li>
+                                Timothy Lawrence
+                            </li>
+                        </ul>
+                    </article>
 
-                    <a href="thebigday/tables/table3.shtml">
-                        <article class="plan">
-                            <h3>
-                                Table 3 - Vienna, Austria
-                            </h3>
-                            <ol>
-                                <li>
-                                    Penn
-                                </li>
-                                <li>
-                                    Andy
-                                </li>
-                                <li>
-                                    Darcy
-                                </li>
-                                <li>
-                                    Phil
-                                </li>
-                                <li>
-                                    Paul
-                                </li>
-                                <li>
-                                    Kathy
-                                </li>
-                                <li>
-                                    Alex
-                                </li>
-                                <li>
-                                    Chloe
-                                </li>
-                                <li>
-                                    Tori
-                                </li>
-                            </ul>
-                        </article>
-                    </a>
+                    <article class="plan" id="plan3">
+                        <h3>
+                            Table 3 - Vienna, Austria
+                        </h3>
+                        <ol>
+                            <li>
+                                Kate Deems (aka Aunt Penn)
+                            </li>
+                            <li>
+                                Andrew Deems
+                            </li>
+                            <li>
+                                Darcy Armstrong
+                            </li>
+                            <li>
+                                Phillip Armstrong
+                            </li>
+                            <li>
+                                Paul Vaz
+                            </li>
+                            <li>
+                                Kathy Vaz
+                            </li>
+                            <li>
+                                Alex Vaz
+                            </li>
+                            <li>
+                                Chloe Vaz
+                            </li>
+                            <li>
+                                Victoria "Tori" Vaz
+                            </li>
+                            <li>
+                                Chris McCaffery
+                            </li>
+                        </ul>
+                    </article>
 
-                    <a href="thebigday/tables/table4.shtml">
-                        <article class="plan">
-                            <h3>
-                                Table 4 - Portland, OR
-                            </h3>
-                            <ol>
-                                <li>
-                                    Lucy
-                                </li>
-                                <li>
-                                    Lou
-                                </li>
-                                <li>
-                                    Emma
-                                </li>
-                                <li>
-                                    Robbie
-                                </li>
-                                <li>
-                                    Ben
-                                </li>
-                                <li>
-                                    Ben
-                                </li>
-                                <li>
-                                    Alison
-                                </li>
-                                <li>
-                                    Rich
-                                </li>
-                                <li>
-                                    Seona
-                                </li>
-                            </ul>
-                        </article>
-                    </a>
+                    <article class="plan" id="plan4">
+                        <h3>
+                            Table 4 - Portland, OR
+                        </h3>
+                        <ol>
+                            <li>
+                                Lucy Jones
+                            </li>
+                            <li>
+                                Lou Rooth
+                            </li>
+                            <li>
+                                Emma Guy
+                            </li>
+                            <li>
+                                Robbie Vanbrabant
+                            </li>
+                            <li>
+                                Benjamin Hayward-Browne
+                            </li>
+                            <li>
+                                Benjamin Thomas
+                            </li>
+                            <li>
+                                Alison Louise Mackay
+                            </li>
+                            <li>
+                                Richard Marshall
+                            </li>
+                            <li>
+                                Seona McKechnie
+                            </li>
+                        </ul>
+                    </article>
 
-                    <a href="thebigday/tables/table5.shtml">
-                        <article class="plan">
-                            <h3>
-                                Table 5 - Seattle, WA
-                            </h3>
-                            <ol>
-                                <li>
-                                    Betty
-                                </li>
-                                <li>
-                                    Philip
-                                </li>
-                                <li>
-                                    Ian
-                                </li>
-                                <li>
-                                    Ann
-                                </li>
-                                <li>
-                                    Rob
-                                </li>
-                                <li>
-                                    Hannah
-                                </li>
-                                <li>
-                                    Ellie
-                                </li>
-                                <li>
-                                    Harry
-                                </li>
-                                <li>
-                                    Becca
-                                </li>
-                                <li>
-                                    Billy
-                                </li>
-                            </ul>
-                        </article>
-                    </a>
+                    <article class="plan" id="plan5">
+                        <h3>
+                            Table 5 - Seattle, WA
+                        </h3>
+                        <ol>
+                            <li>
+                                Betty White
+                            </li>
+                            <li>
+                                Philip White
+                            </li>
+                            <li>
+                                Ian Lain
+                            </li>
+                            <li>
+                                Ann Lain
+                            </li>
+                            <li>
+                                Robert Lain
+                            </li>
+                            <li>
+                                Hannah Shoesmith
+                            </li>
+                            <li>
+                                Ellie Lain
+                            </li>
+                            <li>
+                                Harry Lain
+                            </li>
+                            <li>
+                                Rebecca Lain
+                            </li>
+                            <li>
+                                Billy Ward
+                            </li>
+                        </ul>
+                    </article>
 
-                    <a href="thebigday/tables/table6.shtml">
-                        <article class="plan">
-                            <h3>
-                                Table 6 - Greece
-                            </h3>
-                            <ol>
-                                <li>
-                                    Nicole
-                                </li>
-                                <li>
-                                    Zoe
-                                </li>
-                                <li>
-                                    Celen
-                                </li>
-                                <li>
-                                    Adrian
-                                </li>
-                                <li>
-                                    Brita
-                                </li>
-                                <li>
-                                    Sam
-                                </li>
-                                <li>
-                                    Rachel
-                                </li>
-                                <li>
-                                    Toby
-                                </li>
-                                <li>
-                                    Erin
-                                </li>
-                                <li>
-                                    Kaitlyn
-                                </li>
-                                <li>
-                                    Merima
-                                </li>
-                            </ul>
-                        </article>
-                    </a>
+                    <article class="plan" id="plan6">
+                        <h3>
+                            Table 6 - Greece
+                        </h3>
+                        <ol>
+                            <li>
+                                Nicole Conley
+                            </li>
+                            <li>
+                                Zoë Wade
+                            </li>
+                            <li>
+                                Celén Zepeda
+                            </li>
+                            <li>
+                                Adrian Correa
+                            </li>
+                            <li>
+                                Brita Vinje
+                            </li>
+                            <li>
+                                Samuel Seltzer
+                            </li>
+                            <li>
+                                Rachel Toby
+                            </li>
+                            <li>
+                                Andrew Toby
+                            </li>
+                            <li>
+                                Erin Somers
+                            </li>
+                            <li>
+                                Kaitlyn Sanderson
+                            </li>
+                            <li>
+                                Merima Heric
+                            </li>
+                        </ul>
+                    </article>
 
-                    <a href="thebigday/tables/table7.shtml">
-                        <article class="plan">
-                            <h3>
-                                Table 7 - Tuscany, Italy
-                            </h3>
-                            <ol>
-                                <li>
-                                    Jen
-                                </li>
-                                <li>
-                                    Andrew
-                                </li>
-                                <li>
-                                    Kendra
-                                </li>
-                                <li>
-                                    Kayla
-                                </li>
-                                <li>
-                                    Ashley
-                                </li>
-                                <li>
-                                    John
-                                </li>
-                                <li>
-                                    Luke
-                                </li>
-                                <li>
-                                    Hannah
-                                </li>
-                                <li>
-                                    Colin
-                                </li>
-                                <li>
-                                    Jelena
-                                </li>
-                            </ul>
-                        </article>
-                    </a>
+                    <article class="plan" id="plan7">
+                        <h3>
+                            Table 7 - Tuscany, Italy
+                        </h3>
+                        <ol>
+                            <li>
+                                Jennifer Sartor
+                            </li>
+                            <li>
+                                Andrew Sartor
+                            </li>
+                            <li>
+                                Kendra Sands
+                            </li>
+                            <li>
+                                Kayla Chrysler
+                            </li>
+                            <li>
+                                Ashley Wells
+                            </li>
+                            <li>
+                                Jonathan Sheperd
+                            </li>
+                            <li>
+                                Luke Pope
+                            </li>
+                            <li>
+                                Hannah Whittenham
+                            </li>
+                            <li>
+                                Colin McGill
+                            </li>
+                            <li>
+                                Jelena Lukina
+                            </li>
+                        </ul>
+                    </article>
 
-                    <a href="thebigday/tables/table8.shtml">
-                        <article class="plan">
-                            <h3>
-                                Table 8 - Tangier, Morocco
-                            </h3>
-                            <ol>
-                                <li>
-                                    Aaron
-                                </li>
-                                <li>
-                                    Alex
-                                </li>
-                                <li>
-                                    Tamara
-                                </li>
-                                <li>
-                                    Amanda
-                                </li>
-                                <li>
-                                    Don
-                                </li>
-                                <li>
-                                    Alan
-                                </li>
-                                <li>
-                                    Kerry
-                                </li>
-                                <li>
-                                    Rachel
-                                </li>
-                                <li>
-                                    Kendra
-                                </li>
-                                <li>
-                                    Matt
-                                </li>
-                                <li>
-                                    Dan
-                                </li>
-                            </ul>
-                        </article>
-                    </a>
+                    <article class="plan" id="plan8">
+                        <h3>
+                            Table 8 - Tangier, Morocco
+                        </h3>
+                        <ol>
+                            <li>
+                                Aaron Kent
+                            </li>
+                            <li>
+                                Alexander Hawkins
+                            </li>
+                            <li>
+                                Tamara Hawkins
+                            </li>
+                            <li>
+                                Amanda Paradis
+                            </li>
+                            <li>
+                                Alan Ritchie
+                            </li>
+                            <li>
+                                Kerry Ritchie
+                            </li>
+                            <li>
+                                Rachel Harley
+                            </li>
+                            <li>
+                                Kendra Stocker
+                            </li>
+                            <li>
+                                Matthew Batchelor
+                            </li>
+                            <li>
+                                Daniel East
+                            </li>
+                        </ul>
+                    </article>
+                </section>
 
+                <section>
+                    <div id="tableviewer" class="modal">
+                        <div class="modalwrapper">
+                            <div class="close" id="tableclose">
+                                X
+                            </div>
+                            <div class="tableWrapper">
+                                <div class="arrow" id="tableprev">
+                                    &lt;
+                                </div>
+                                <div class="table" id="tablecontent">    
+                                </div>
+                                <div class="arrow" id="tablenext">
+                                    &gt;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="photoviewer" class="modal">
+                        <div class="modalwrapper">
+                            <div class="close" id="photoclose">
+                                X
+                            </div>
+                            <img src="#" id="photocontent" />
+                        </div>
+                    </div>
                 </section>
             </main>
         
