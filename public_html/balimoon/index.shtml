@@ -35,10 +35,7 @@
                     Love,
                     <br />
                     Andy &amp; Lauren
-                    <br /><br />
-                    <a href="https://twitter.com/hashtag/laurenturnswhite" target="_blank">
-                        #laurenturnswhite
-                    </a>
+                    <!--#include virtual="/includes/hashtag.shtml" -->
                 </p>
             </header>
             
@@ -61,6 +58,92 @@
                 </section>
 
                 <section class="moon">
+
+                    <h3>General</h3>
+
+                    <article>
+                        <div class="moonImg">
+                            <a
+                                href="https://pixabay.com/en/gourmet-salad-lunch-breakfast-433405" target="_blank">
+                                <img src="balimoon/images/lunch.jpg" width="77" height="100" alt="Lunch" />
+                            </a>
+                        </div>
+                        <div class="moonBody">
+                            <h3>
+                                Lunch
+                            </h3>
+                            <p>
+                                Buy us lunch for one of the days on our trip (&pound;30 / &#36;44).
+                            </p>
+                        </div>
+                        <div class="moonLink">
+                            <a class="contribute" href="https://www.paypal.me/andyw51/30gbp" target="_blank">Contribute in GBP</a>
+                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/44usd" target="_blank">Contribute in USD</a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="moonImg">
+                            <a href="https://pixabay.com/en/dinner-table-fancy-dinner-table-1433494/" target="_blank">
+                                <img src="balimoon/images/dinner.jpg" width="150" height="100" alt="Dinner" />
+                            </a>
+                        </div>
+                        <div class="moonBody">
+                            <h3>
+                                Dinner
+                            </h3>
+                            <p>
+                                Buy us dinner for one of the days on our trip (&pound;50 / &#36;73).
+                            </p>
+                        </div>
+                        <div class="moonLink">
+                            <a class="contribute" href="https://www.paypal.me/andyw51/50gbp" target="_blank">Contribute in GBP</a>
+                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/73usd" target="_blank">Contribute in USD</a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="moonImg">
+                            <a href="http://pixabay.com/en/cocktail-tropical-beverage-drink-1049525/" target="_blank">
+                                <img src="balimoon/images/cocktail.jpg" width="65" height="100" alt="Cocktail" />
+                            </a>
+                        </div>
+                        <div class="moonBody">
+                            <h3>
+                                Cocktails
+                            </h3>
+                            <p>
+                                Buy us a cocktail, or two (&pound;20 / &#36;29).
+                            </p>
+                        </div>
+                        <div class="moonLink">
+                            <a class="contribute" href="https://www.paypal.me/andyw51/20gbp" target="_blank">Contribute in GBP</a>
+                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/29usd" target="_blank">Contribute in USD</a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="moonImg">
+                            <a href="https://pixabay.com/en/sunset-bali-cliff-990562" target="_blank">
+                                <img src="balimoon/images/other.jpg" width="150" height="113" alt="Monkey Forest" />
+                            </a>
+                        </div>
+                        <div class="moonBody">
+                            <h3>
+                                Other
+                            </h3>
+                            <p>
+                                Choose how much, or how little, you would like to give us.
+                            </p>
+                        </div>
+                        <div class="moonLink">
+                            <a class="contribute" href="https://www.paypal.me/andyw51" target="_blank">Contribute in GBP</a>
+                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite" target="_blank">Contribute in USD</a>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="moon">
                     <h3>Ubud, Bali</h3>
 
                     <article>
@@ -79,8 +162,7 @@
                             </p>
                         </div>
                         <div class="moonLink">
-                            <a class="contribute" href="https://www.paypal.me/andyw51/77gbp" target="_blank">Contribute in GBP</a>
-                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/110usd" target="_blank">Contribute in USD</a>
+                            Thank-you!!!
                         </div>
                     </article>
                     
@@ -100,8 +182,7 @@
                             </p>
                         </div>
                         <div class="moonLink">
-                            <a class="contribute" href="https://www.paypal.me/andyw51/77gbp" target="_blank">Contribute in GBP</a>
-                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/110usd" target="_blank">Contribute in USD</a>
+                            Thank-you!!!
                         </div>
                     </article>
                     
@@ -121,8 +202,7 @@
                             </p>
                         </div>
                         <div class="moonLink">
-                            <a class="contribute" href="https://www.paypal.me/andyw51/42gbp" target="_blank">Contribute in GBP</a>
-                            <a class="contribute" href="https://www.paypal.me/laurenlangfordwhite/61usd" target="_blank">Contribute in USD</a>
+                            Thank-you!!!
                         </div>
                     </article>
                     
